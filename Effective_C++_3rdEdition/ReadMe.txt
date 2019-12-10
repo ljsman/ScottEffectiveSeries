@@ -1,1 +1,1 @@
-test
+This file contains the code examples of each Items from Scott's Morden Effective book published by Addison-Wesley.
