@@ -104,6 +104,7 @@
   <ItemGroup>
     <ClCompile Include="..\ThreadHelper\ThreadDictionary.cpp" />
     <ClCompile Include="..\ThreadHelper\ThreadHelper.cpp" />
+    <ClCompile Include="Item7.cpp" />
     <ClCompile Include="main.cpp" />
     <ClInclude Include="..\dist\File_Slow\include\File_Slow.h" />
     <ClInclude Include="..\Framework\Framework.h" />
@@ -111,6 +112,7 @@
     <ClInclude Include="..\ThreadHelper\ThreadHelper.h" />
     <ClInclude Include="..\ThreadHelper\WindowsWrapper.h" />
     <ClInclude Include="A.h" />
+    <ClInclude Include="Item7.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A.cpp" />

@@ -37,6 +37,9 @@
     <ClInclude Include="..\dist\File_Slow\include\File_Slow.h">
       <Filter>_Libs</Filter>
     </ClInclude>
+    <ClInclude Include="Item7.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A.cpp">
@@ -49,6 +52,9 @@
       <Filter>__ThreadHelper</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Item7.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
