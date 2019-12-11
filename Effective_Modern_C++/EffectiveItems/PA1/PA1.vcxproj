@@ -113,6 +113,7 @@
     <ClInclude Include="..\ThreadHelper\WindowsWrapper.h" />
     <ClInclude Include="A.h" />
     <ClInclude Include="Item7.h" />
+    <ClInclude Include="ItemHeader.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A.cpp" />

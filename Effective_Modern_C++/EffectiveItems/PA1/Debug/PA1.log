@@ -1,0 +1,10 @@
+﻿  Item7.cpp
+E:\C++Project\ScottEffectiveSeries\Effective_Modern_C++\EffectiveItems\PA1\Item7.h(148,45): warning C4189: 'itr': local variable is initialized but not referenced
+E:\C++Project\ScottEffectiveSeries\Effective_Modern_C++\EffectiveItems\PA1\Item7.h(168,34): warning C4100: 'li': unreferenced formal parameter
+E:\C++Project\ScottEffectiveSeries\Effective_Modern_C++\EffectiveItems\PA1\Item7.cpp(15,10): warning C4189: 'w1': local variable is initialized but not referenced
+E:\C++Project\ScottEffectiveSeries\Effective_Modern_C++\EffectiveItems\PA1\Item7.cpp(33,8): warning C4189: 'val': local variable is initialized but not referenced
+  main.cpp
+E:\C++Project\ScottEffectiveSeries\Effective_Modern_C++\EffectiveItems\PA1\Item7.h(148,45): warning C4189: 'itr': local variable is initialized but not referenced
+E:\C++Project\ScottEffectiveSeries\Effective_Modern_C++\EffectiveItems\PA1\Item7.h(168,34): warning C4100: 'li': unreferenced formal parameter
+  Generating Code...
+  PA1.vcxproj -> E:\C++Project\ScottEffectiveSeries\Effective_Modern_C++\EffectiveItems\Debug\EffectiveItems.exe

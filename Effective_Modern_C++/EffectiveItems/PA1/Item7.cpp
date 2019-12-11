@@ -5,6 +5,8 @@ Item7::Item7()
 	this->firstTest();
 	this->secondTest();
 	this->thirdTest();
+	this->forthTest();
+	this->fifthTest();
 }
 
 //non-initializer_list cotr
@@ -42,4 +44,24 @@ void Item7::thirdTest()
 	Widget0 w8(move(w4));
 	Widget0 w9{ move(w4) };
 	Widget0 w10 = move(w4);
+}
+
+void Item7::forthTest()
+{
+	/*The follow statement is calling the initinlizer_list cotr, even if this is
+		perfect match of Widget1(int i, double d); ctor.
+	*/
+	//Widget1 w{10, 5.0f};
+
+	//compiler cant convert, because now initilizer_list is taking only strings 
+	//and there is no conversion between int, double to string.
+	Widget2 w0{ 10, 5.0f };
+}
+
+void Item7::fifthTest()
+{
+	//calling default ctor
+	Widget3 widget;
+	//calling default ctor, because 
+	Widget3 widget3{};
 }

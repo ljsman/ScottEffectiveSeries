@@ -17,11 +17,11 @@
     <Filter Include="_Data">
       <UniqueIdentifier>{7b90ca96-b0f8-4b44-bc72-ad6c4b578d68}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Headers">
+      <UniqueIdentifier>{9394d969-88c1-458e-95dd-c2254879a853}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="A.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Framework\Framework.h">
       <Filter>__Framework</Filter>
     </ClInclude>
@@ -37,8 +37,14 @@
     <ClInclude Include="..\dist\File_Slow\include\File_Slow.h">
       <Filter>_Libs</Filter>
     </ClInclude>
+    <ClInclude Include="A.h">
+      <Filter>Source Files\Headers</Filter>
+    </ClInclude>
     <ClInclude Include="Item7.h">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemHeader.h">
+      <Filter>Source Files\Headers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
