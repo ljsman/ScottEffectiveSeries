@@ -17,6 +17,7 @@ void Item7::firstTest()
 	Widget w2{ 10, true };
 	Widget w3(10, 5.0);
 	Widget w4{ 10, 5.0 };
+	delete w1;
 }
 
 void Item7::secondTest()
@@ -48,7 +49,7 @@ void Item7::thirdTest()
 
 void Item7::forthTest()
 {
-	/*The follow statement is calling the initinlizer_list cotr, even if this is
+	/*The follow statement is calling the initializer_list cotr, even if this is
 		perfect match of Widget1(int i, double d); ctor.
 	*/
 	//Widget1 w{10, 5.0f};
@@ -62,6 +63,8 @@ void Item7::fifthTest()
 {
 	//calling default ctor
 	Widget3 widget;
-	//calling default ctor, because 
-	Widget3 widget3{};
+	//calling default ctor, because empty brace means empty argument, NOT empty initializer list.
+	Widget3 widget0{};
+
+	Widget3 widget1({1,2,3});
 }

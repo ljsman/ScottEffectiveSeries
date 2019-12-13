@@ -165,9 +165,15 @@ class Item7
 			{
 			};
 
-			Widget3(initializer_list<int> li)
+			Widget3(const initializer_list<int> li)
 			{
+				initializer_list<int>::iterator i = li.begin();
 
+				i++;
+				i++;
+				
+				const int* ptr = i;
+				Trace::out("This is whats inside an empty initializer list ==> %d", li.begin());
 			}
 		};
 
