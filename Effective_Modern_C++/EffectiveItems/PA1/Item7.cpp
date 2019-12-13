@@ -67,4 +67,5 @@ void Item7::fifthTest()
 	Widget3 widget0{};
 
 	Widget3 widget1({1,2,3});
+	Trace::out("EXIT");
 }
