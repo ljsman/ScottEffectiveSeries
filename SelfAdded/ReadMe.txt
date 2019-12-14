@@ -1,0 +1,1 @@
+This is my own development of Effective Items that I found by expriementing MSVC. 
