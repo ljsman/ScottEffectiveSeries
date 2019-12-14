@@ -3,10 +3,11 @@
 //----------------------------------------------------------------------------
 
 #include "ThreadHelper.h"
-#include "A.h"
-
-void A()
+#include "ItemHeader.h"
+A::A()
 {
+	TestingClass tc;
+	TestingClass* tcPtr = new TestingClass;
 	// Thread 2 begins here
 	Trace::out("\n");
 	ThreadHelper::DebugBegin(1);

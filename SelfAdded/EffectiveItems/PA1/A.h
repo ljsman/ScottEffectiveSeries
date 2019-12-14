@@ -5,6 +5,9 @@
 #ifndef A_H
 #define A_H
 
-void A();
-
+class A 
+{
+public:
+	A();
+};
 #endif

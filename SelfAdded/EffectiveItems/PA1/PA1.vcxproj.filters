@@ -17,8 +17,8 @@
     <Filter Include="_Data">
       <UniqueIdentifier>{7b90ca96-b0f8-4b44-bc72-ad6c4b578d68}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Headers">
-      <UniqueIdentifier>{720d7aba-6f8b-493c-9c31-d9b1550f3e09}</UniqueIdentifier>
+    <Filter Include="Source Files\Headers">
+      <UniqueIdentifier>{9394d969-88c1-458e-95dd-c2254879a853}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -38,13 +38,16 @@
       <Filter>_Libs</Filter>
     </ClInclude>
     <ClInclude Include="A.h">
-      <Filter>Headers</Filter>
+      <Filter>Source Files\Headers</Filter>
     </ClInclude>
-    <ClInclude Include="Item4.h">
-      <Filter>Headers</Filter>
+    <ClInclude Include="Item7.h">
+      <Filter>Source Files\Headers</Filter>
     </ClInclude>
-    <ClInclude Include="Header.h">
-      <Filter>Headers</Filter>
+    <ClInclude Include="ItemHeader.h">
+      <Filter>Source Files\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TestingClass.h">
+      <Filter>Source Files\Headers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -60,7 +63,10 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Item4.cpp">
+    <ClCompile Include="Item7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestingClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
