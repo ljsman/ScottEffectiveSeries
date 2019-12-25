@@ -108,6 +108,7 @@
     <ClCompile Include="InsertionSort.cpp" />
     <ClCompile Include="Item7.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="P_193.cpp" />
     <ClCompile Include="TestingClass.cpp" />
     <ClInclude Include="..\dist\File_Slow\include\File_Slow.h" />
     <ClInclude Include="..\Framework\Framework.h" />
@@ -119,6 +120,7 @@
     <ClInclude Include="InsertionSort.h" />
     <ClInclude Include="Item7.h" />
     <ClInclude Include="ItemHeader.h" />
+    <ClInclude Include="P_193.h" />
     <ClInclude Include="TestingClass.h" />
   </ItemGroup>
   <ItemGroup>
