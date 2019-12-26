@@ -368,7 +368,7 @@
 						system("if not exist .\\..\\Logs mkdir .\\..\\Logs");
 						FILE *pFile = nullptr;
 						fopen_s(&pFile, ".\\..\\Logs\\MemTrackerLog.txt", "w");
-						assert(pFile);
+						//assert(pFile);
 						if (pFile != nullptr)
 						{
 							fprintf(pFile, "\n");
