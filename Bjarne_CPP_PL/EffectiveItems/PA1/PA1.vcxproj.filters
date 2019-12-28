@@ -61,6 +61,10 @@
     <ClInclude Include="SelectionSort.h">
       <Filter>Source Files\Headers</Filter>
     </ClInclude>
+    <ClInclude Include="SortAlgos.h">
+      <Filter>Source Files\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeSort.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A.cpp">
@@ -91,6 +95,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="SelectionSort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeSort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

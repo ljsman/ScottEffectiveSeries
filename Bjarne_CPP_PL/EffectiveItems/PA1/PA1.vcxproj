@@ -108,6 +108,7 @@
     <ClCompile Include="InsertionSort.cpp" />
     <ClCompile Include="Item7.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MergeSort.cpp" />
     <ClCompile Include="P_193.cpp" />
     <ClCompile Include="SelectionSort.cpp" />
     <ClCompile Include="TestingClass.cpp" />
@@ -121,8 +122,10 @@
     <ClInclude Include="InsertionSort.h" />
     <ClInclude Include="Item7.h" />
     <ClInclude Include="ItemHeader.h" />
+    <ClInclude Include="MergeSort.h" />
     <ClInclude Include="P_193.h" />
     <ClInclude Include="SelectionSort.h" />
+    <ClInclude Include="SortAlgos.h" />
     <ClInclude Include="TestingClass.h" />
   </ItemGroup>
   <ItemGroup>
