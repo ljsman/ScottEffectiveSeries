@@ -49,6 +49,9 @@
     <ClInclude Include="TestingClass.h">
       <Filter>Source Files\Headers</Filter>
     </ClInclude>
+    <ClInclude Include="Item4.h">
+      <Filter>Source Files\Headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A.cpp">
@@ -69,11 +72,15 @@
     <ClCompile Include="TestingClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Item4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Framework\__DO NOT MODIFY__">
       <Filter>__Framework</Filter>
     </None>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="..\dist\File_Slow\lib\File_Slow_Debug.lib">

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MemTrace" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACEAAAkAAAQBAAAAABgAAAAAAAEAAACABgAAAABAA=</HashCode>
+      <FileName>E:\C++Project\ScottEffectiveSeries\Effective_C++_3rdEdition\EffectiveItems\Framework\Framework.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitTrace" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEAEAAAAAABAAAABAAAAAAAAAAAACAAgAACAAAA=</HashCode>
+      <FileName>E:\C++Project\ScottEffectiveSeries\Effective_C++_3rdEdition\EffectiveItems\Framework\Framework.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitUtility" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\C++Project\ScottEffectiveSeries\Effective_C++_3rdEdition\EffectiveItems\Framework\Framework.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitSLink" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBCAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAgAAAAAAg=</HashCode>
+      <FileName>E:\C++Project\ScottEffectiveSeries\Effective_C++_3rdEdition\EffectiveItems\Framework\Framework.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestRegistry" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAAAAAAEAAAAAABAAIAAAAIBAAAIAAgAAAgAAABAEA=</HashCode>
+      <FileName>E:\C++Project\ScottEffectiveSeries\Effective_C++_3rdEdition\EffectiveItems\Framework\Framework.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEgIAAEQAAAAAAAAAAAAAIAAAAAAAAAAgCAAAAAA=</HashCode>
+      <FileName>E:\C++Project\ScottEffectiveSeries\Effective_C++_3rdEdition\EffectiveItems\Framework\Framework.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerformanceTimer" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAYEQBAAAACAAAAAAEAAIAACCBAAiAAQAAAA=</HashCode>
+      <FileName>E:\C++Project\ScottEffectiveSeries\Effective_C++_3rdEdition\EffectiveItems\Framework\Framework.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Trace" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAAAAAABAAAAABAAAAAAAAABAACAAgAAAAAEA=</HashCode>
+      <FileName>E:\C++Project\ScottEffectiveSeries\Effective_C++_3rdEdition\EffectiveItems\Framework\Framework.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileIO">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAEgAAIAAAAAABAAAEAAAAASAAAAAgAAKAAAA=</HashCode>
+      <FileName>E:\C++Project\ScottEffectiveSeries\Effective_C++_3rdEdition\EffectiveItems\Framework\Framework.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Align16" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>E:\C++Project\ScottEffectiveSeries\Effective_C++_3rdEdition\EffectiveItems\Framework\Framework.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="_StaticMem" Collapsed="true">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAgAAEAAAA=</HashCode>
+      <FileName>E:\C++Project\ScottEffectiveSeries\Effective_C++_3rdEdition\EffectiveItems\Framework\Framework.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UnitStats" Collapsed="true">
+    <Position X="6.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAQAAAAACggCAAAgA=</HashCode>
+      <FileName>E:\C++Project\ScottEffectiveSeries\Effective_C++_3rdEdition\EffectiveItems\Framework\Framework.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UnitData" Collapsed="true">
+    <Position X="4.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAACAAAAABAQAAAAAAAsAQAAAAAAgIAAAAAA=</HashCode>
+      <FileName>E:\C++Project\ScottEffectiveSeries\Effective_C++_3rdEdition\EffectiveItems\Framework\Framework.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="MemTracker" Collapsed="true">
+    <Position X="3" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\C++Project\ScottEffectiveSeries\Effective_C++_3rdEdition\EffectiveItems\Framework\Framework.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

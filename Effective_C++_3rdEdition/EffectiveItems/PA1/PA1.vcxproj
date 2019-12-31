@@ -67,12 +67,16 @@
       <PrecompiledHeaderOutputFile />
       <ForcedIncludeFiles>Framework.h</ForcedIncludeFiles>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BrowseInformation>true</BrowseInformation>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -104,6 +108,7 @@
   <ItemGroup>
     <ClCompile Include="..\ThreadHelper\ThreadDictionary.cpp" />
     <ClCompile Include="..\ThreadHelper\ThreadHelper.cpp" />
+    <ClCompile Include="Item4.cpp" />
     <ClCompile Include="Item7.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="TestingClass.cpp" />
@@ -113,6 +118,7 @@
     <ClInclude Include="..\ThreadHelper\ThreadHelper.h" />
     <ClInclude Include="..\ThreadHelper\WindowsWrapper.h" />
     <ClInclude Include="A.h" />
+    <ClInclude Include="Item4.h" />
     <ClInclude Include="Item7.h" />
     <ClInclude Include="ItemHeader.h" />
     <ClInclude Include="TestingClass.h" />
@@ -122,6 +128,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Framework\__DO NOT MODIFY__" />
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="..\dist\File_Slow\lib\File_Slow_Debug.lib">
