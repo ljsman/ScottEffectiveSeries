@@ -49,6 +49,12 @@
     <ClInclude Include="TestingClass.h">
       <Filter>Source Files\Headers</Filter>
     </ClInclude>
+    <ClInclude Include="InsertionSort.h">
+      <Filter>Source Files\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BubbleSort.h">
+      <Filter>Source Files\Headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A.cpp">
@@ -67,6 +73,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TestingClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertionSort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleSort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

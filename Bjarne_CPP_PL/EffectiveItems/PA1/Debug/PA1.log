@@ -1,0 +1,8 @@
+﻿  main.cpp
+\\Mac\Home\Documents\GitHub\ScottEffectiveSeries\Bjarne_CPP_PL\EffectiveItems\PA1\Item7.h(148,45): warning C4189: 'itr': local variable is initialized but not referenced
+\\Mac\Home\Documents\GitHub\ScottEffectiveSeries\Bjarne_CPP_PL\EffectiveItems\PA1\Item7.h(175,16): warning C4189: 'ptr': local variable is initialized but not referenced
+  MergeSort.cpp
+\\Mac\Home\Documents\GitHub\ScottEffectiveSeries\Bjarne_CPP_PL\EffectiveItems\PA1\MergeSort.h(2,10): error C2059: syntax error: '<'
+\\Mac\Home\Documents\GitHub\ScottEffectiveSeries\Bjarne_CPP_PL\EffectiveItems\PA1\MergeSort.h(4,1): error C2143: syntax error: missing ';' before '{'
+\\Mac\Home\Documents\GitHub\ScottEffectiveSeries\Bjarne_CPP_PL\EffectiveItems\PA1\MergeSort.h(4,1): error C2447: '{': missing function header (old-style formal list?)
+  Generating Code...

@@ -1,2 +1,6 @@
 #TargetFrameworkVersion=v4.0:PlatformToolSet=v142:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=10.0
+<<<<<<< HEAD
 Debug|Win32|E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\|
+=======
+Debug|Win32|\\Mac\Home\Documents\GitHub\ScottEffectiveSeries\SelfAdded\EffectiveItems\|
+>>>>>>> 783942ef3adc127ce34734b12c3de1c25f98e00f
