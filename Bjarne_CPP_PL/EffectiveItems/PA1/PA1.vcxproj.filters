@@ -64,7 +64,9 @@
     <ClInclude Include="SortAlgos.h">
       <Filter>Source Files\Headers</Filter>
     </ClInclude>
-    <ClInclude Include="MergeSort.h" />
+    <ClInclude Include="MergeSort.h">
+      <Filter>Source Files\Headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A.cpp">

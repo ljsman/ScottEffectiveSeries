@@ -61,7 +61,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(SolutionDir)Framework;$(SolutionDir)ThreadHelper;$(SolutionDir)Data;$(SolutionDir)Dist\File_Slow\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>\\Mac\Home\Documents\GitHub\ScottEffectiveSeries\boost_1_72_0\;$(SolutionDir)Framework;$(SolutionDir)ThreadHelper;$(SolutionDir)Data;$(SolutionDir)Dist\File_Slow\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <WarningVersion>
       </WarningVersion>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
