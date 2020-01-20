@@ -5,3 +5,4 @@ using namespace std;
 #include "A.h"
 #include "InsertionSort.h"
 #include "BubbleSort.h"
+#include "StackT.h"
