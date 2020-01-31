@@ -1,2 +1,10 @@
-﻿  StackT.cpp
+﻿  A.cpp
+E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\Item7.h(148,45): warning C4189: 'itr': local variable is initialized but not referenced
+E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\Item7.h(175,16): warning C4189: 'ptr': local variable is initialized but not referenced
+E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\A.cpp(10,16): warning C4189: 'tcPtr': local variable is initialized but not referenced
+  StackT.cpp
+  main.cpp
+E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\Item7.h(148,45): warning C4189: 'itr': local variable is initialized but not referenced
+E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\Item7.h(175,16): warning C4189: 'ptr': local variable is initialized but not referenced
+  Generating Code...
   PA1.vcxproj -> E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\Debug\EffectiveItems.exe
