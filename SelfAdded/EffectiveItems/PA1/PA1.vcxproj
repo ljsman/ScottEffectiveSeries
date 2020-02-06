@@ -116,16 +116,12 @@
     <ClInclude Include="..\ThreadHelper\ThreadDictionary.h" />
     <ClInclude Include="..\ThreadHelper\ThreadHelper.h" />
     <ClInclude Include="..\ThreadHelper\WindowsWrapper.h" />
-    <ClInclude Include="A.h" />
     <ClInclude Include="BubbleSort.h" />
     <ClInclude Include="InsertionSort.h" />
     <ClInclude Include="Item7.h" />
     <ClInclude Include="ItemHeader.h" />
     <ClInclude Include="StackT.h" />
     <ClInclude Include="TestingClass.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="A.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Framework\__DO NOT MODIFY__" />
