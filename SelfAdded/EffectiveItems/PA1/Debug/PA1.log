@@ -1,6 +1,4 @@
 ﻿  main.cpp
 E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\Item7.h(148,45): warning C4189: 'itr': local variable is initialized but not referenced
 E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\Item7.h(175,16): warning C4189: 'ptr': local variable is initialized but not referenced
-E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\main.cpp(156,5): warning C4189: 'b': local variable is initialized but not referenced
-E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\main.cpp(149): warning C4172: returning address of local variable or temporary: c
   PA1.vcxproj -> E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\Debug\EffectiveItems.exe
