@@ -6,3 +6,4 @@ using namespace std;
 #include "InsertionSort.h"
 #include "BubbleSort.h"
 #include "StackT.h"
+#include "Heap.h"

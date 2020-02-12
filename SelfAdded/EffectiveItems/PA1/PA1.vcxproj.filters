@@ -55,6 +55,9 @@
     <ClInclude Include="StackT.h">
       <Filter>Source Files\Headers</Filter>
     </ClInclude>
+    <ClInclude Include="Heap.h">
+      <Filter>Source Files\Headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ThreadHelper\ThreadDictionary.cpp">
@@ -79,6 +82,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="StackT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Heap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -106,6 +106,7 @@
     <ClCompile Include="..\ThreadHelper\ThreadDictionary.cpp" />
     <ClCompile Include="..\ThreadHelper\ThreadHelper.cpp" />
     <ClCompile Include="BubbleSort.cpp" />
+    <ClCompile Include="Heap.cpp" />
     <ClCompile Include="InsertionSort.cpp" />
     <ClCompile Include="Item7.cpp" />
     <ClCompile Include="main.cpp" />
@@ -117,6 +118,7 @@
     <ClInclude Include="..\ThreadHelper\ThreadHelper.h" />
     <ClInclude Include="..\ThreadHelper\WindowsWrapper.h" />
     <ClInclude Include="BubbleSort.h" />
+    <ClInclude Include="Heap.h" />
     <ClInclude Include="InsertionSort.h" />
     <ClInclude Include="Item7.h" />
     <ClInclude Include="ItemHeader.h" />
