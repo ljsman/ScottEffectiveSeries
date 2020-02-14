@@ -32,31 +32,34 @@ void Heap::max_heapify(int param_index)
 
 	Trace::out("Heapifying Max...\n");
 	int largest = param_index;
-	int localIndex = param_index;
+	int rootIndex = param_index;
+
 	while (1)
 	{
-		int left = this->getLeftChild(localIndex);
-		int right = this->getRightChild(localIndex);
+		int left = this->getLeftChild(rootIndex);
+		int right = this->getRightChild(rootIndex);
 
-		if (left <= this->lastIndex && (this->data.at(left) > this->data.at(localIndex)))
+		//check if left child is larger than root
+		if (left <= this->lastIndex && (this->data.at(left) > this->data.at(rootIndex)))
 		{
 			largest = left;
 		}
 		
+		//check if right child is larger than root
 		if (right <= this->lastIndex && (this->data.at(right) > this->data.at(largest)))
 		{
 			largest = right;
 		}
 
-		if (largest != localIndex)
+		if (largest != rootIndex)
 		{
-			this->swap(largest, localIndex);
+			this->swap(largest, rootIndex);
 		}
-		else if (largest == localIndex)
+		else if (largest == rootIndex)
 		{
 			break;
 		}
-		localIndex = largest;
+		rootIndex = largest;
 	}
 }
 
@@ -66,8 +69,8 @@ void Heap::sort()
 
 	for (int counter = heapSize; counter >= 2; --counter)
 	{
-		this->swap(1, lastIndex);
+		this->swap(FIRSTELEMENT, lastIndex);
 		--(this->lastIndex);
-		this->max_heapify(1);
+		this->max_heapify(FIRSTELEMENT);
 	}
 }
