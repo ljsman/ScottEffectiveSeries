@@ -58,7 +58,9 @@
     <ClInclude Include="Heap.h">
       <Filter>Source Files\Headers</Filter>
     </ClInclude>
-    <ClInclude Include="PriorityQueues.h" />
+    <ClInclude Include="PriorityQueues.h">
+      <Filter>Source Files\Headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ThreadHelper\ThreadDictionary.cpp">

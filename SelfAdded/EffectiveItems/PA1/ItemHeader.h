@@ -7,3 +7,4 @@ using namespace std;
 #include "BubbleSort.h"
 #include "StackT.h"
 #include "Heap.h"
+#include "PriorityQueues.h"

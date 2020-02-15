@@ -18,6 +18,10 @@ public:
 	Heap(const Heap& tmp) = default;
 	Heap& operator = (const Heap& tmp) = default;
 
+	int getFirst()
+	{
+		return this->data.at(FIRSTELEMENT);
+	}
 	void build_max_heap();
 	void max_heapify(int);
 
@@ -41,5 +45,35 @@ public:
 	}
 
 	void sort();
+
+	int getParent(int index)
+	{
+		return index / 2;
+	}
+	int getHeapSize() const
+	{
+		return this->heapSize;
+	}
+
+	int& at(int index)
+	{
+		return this->data.at(index);
+	}
+
+	void heapInsert(int value)
+	{
+		this->data.push_back(value);
+		this->increaseHeapSize();
+	}
+	
+	void increaseHeapSize()
+	{
+		++(this->heapSize);
+		this->lastIndex++;
+	}
+	void decreaseHeapSize()
+	{
+		--(this->heapSize);
+	}
 };
 

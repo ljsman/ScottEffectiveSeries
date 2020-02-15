@@ -1,4 +1,5 @@
 #include "Heap.h"
+#include "PriorityQueues.h"
 
 Heap::Heap()
 	: data({-1, 4, 1, 3, 2, 16, 9 ,10, 14, 8, 7}), firstIndex(1), lastIndex(this->data.size() - 1),
@@ -13,8 +14,8 @@ Heap::Heap()
 	//	Trace::out("%d\n", counter);*/
 	//	data.push_back( (rand()%100) + 1);
 	//}
-
-	Trace::out("\tHeap Object Constructed\n");
+	this->build_max_heap();
+	Trace::out("\tMax-Heap Object Constructed\n");
 }
 
 void Heap::build_max_heap()
@@ -24,13 +25,11 @@ void Heap::build_max_heap()
 	{
 		this->max_heapify(counter);
 	}
-
 }
 
 void Heap::max_heapify(int param_index)
 {
-
-	Trace::out("Heapifying Max...\n");
+	//Trace::out("Heapifying Max...\n");
 	int largest = param_index;
 	int rootIndex = param_index;
 
@@ -66,11 +65,11 @@ void Heap::max_heapify(int param_index)
 void Heap::sort()
 {
 	this->build_max_heap();
-
 	for (int counter = heapSize; counter >= 2; --counter)
 	{
 		this->swap(FIRSTELEMENT, lastIndex);
-		--(this->lastIndex);
+		--lastIndex;
 		this->max_heapify(FIRSTELEMENT);
 	}
 }
+
