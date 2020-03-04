@@ -8,3 +8,4 @@ using namespace std;
 #include "StackT.h"
 #include "Heap.h"
 #include "PriorityQueues.h"
+#include "QuickSort.h"

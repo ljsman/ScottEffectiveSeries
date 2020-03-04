@@ -110,7 +110,9 @@
     <ClCompile Include="InsertionSort.cpp" />
     <ClCompile Include="Item7.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="NRS_questions.cpp" />
     <ClCompile Include="PriorityQueues.cpp" />
+    <ClCompile Include="QuickSort.cpp" />
     <ClCompile Include="StackT.cpp" />
     <ClCompile Include="TestingClass.cpp" />
     <ClInclude Include="..\dist\File_Slow\include\File_Slow.h" />
@@ -123,7 +125,9 @@
     <ClInclude Include="InsertionSort.h" />
     <ClInclude Include="Item7.h" />
     <ClInclude Include="ItemHeader.h" />
+    <ClInclude Include="NRS_questions.h" />
     <ClInclude Include="PriorityQueues.h" />
+    <ClInclude Include="QuickSort.h" />
     <ClInclude Include="StackT.h" />
     <ClInclude Include="TestingClass.h" />
   </ItemGroup>

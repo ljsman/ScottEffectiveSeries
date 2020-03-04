@@ -1,4 +1,6 @@
 ﻿  main.cpp
 E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\Item7.h(148,45): warning C4189: 'itr': local variable is initialized but not referenced
 E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\Item7.h(175,16): warning C4189: 'ptr': local variable is initialized but not referenced
+E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\NRS_questions.h(128,24): warning C4018: '<': signed/unsigned mismatch
+E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\NRS_questions.h(132,12): warning C4018: '>=': signed/unsigned mismatch
   PA1.vcxproj -> E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\Debug\EffectiveItems.exe

@@ -61,6 +61,12 @@
     <ClInclude Include="PriorityQueues.h">
       <Filter>Source Files\Headers</Filter>
     </ClInclude>
+    <ClInclude Include="QuickSort.h">
+      <Filter>Source Files\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="NRS_questions.h">
+      <Filter>Source Files\Headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ThreadHelper\ThreadDictionary.cpp">
@@ -91,6 +97,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="PriorityQueues.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NRS_questions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
