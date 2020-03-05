@@ -1,3 +1,10 @@
+//----------------------------------------------------------------------------
+// Copyright 2019, Woo, Steve, NRS_TechInternship, all rights reserved.
+// Edited by:	Jinshi Li
+// Date:		03/03/2020 - 03/05/2020
+// IDE:			Visual Studio Enterprise 2019(v142)
+// Compiler:	Windows SDK 10.0.18362.0
+//----------------------------------------------------------------------------
 #pragma once
 #include <iostream>
 #include <vector>
@@ -25,7 +32,6 @@ constexpr int BITS = 0x71;
  *		function : foo(vector<ThreeDPoint>&) and  bool IsValidPlayer( const char* player )
  *
  */
-
 union ThreeDPoint //default public
 {
 	//data[0 : 31] = float x; data[32 : 63] = float y; data[64 : 95] = float z; data[96 : 127] = float pad;
@@ -95,8 +101,9 @@ class NRS_questions
 		/*
 		 * map give us O(lgN) running time when we validate a player's name. However, unorder_map could also be used to implement this function. Or we could also implement a hash map to speed up the search, which is O(1).
 		 */
-		bool  IsValidPlayer(const char*);
+		bool IsValidPlayer(const char*);
 		void addPlayer(const char*[], int);
+		void printValidation(bool, const char*);
 	
 		/*
 		 *	Description: foo() is sorting ThreeDPoints in a vector according to their "length" which is the square root of dot product with itself.
@@ -152,3 +159,25 @@ class NRS_questions
 
 };
 
+int main() {
+	NRS_questions nrs;
+	ThreeDPoint d;
+	ThreeDPoint d0(1.0f, 1.0f, 1.0f, 0.0);
+	ThreeDPoint d1(3.0f, 3.0f, 3.0f, 0.0);
+	nrs.fillPoints({ d, d0, d1 });
+
+	const char* PlayerNames[4] =
+	{
+				   "Jinshi",
+				   "Scorpion",
+				   "SubZero",
+				   "LiuKang"
+	};
+	cout << sizeof(PlayerNames) << endl;
+
+	//if we pass in raw array, the size information is lost during the parameter passing.
+	nrs.addPlayer(PlayerNames, sizeof(PlayerNames));
+	cout << nrs.IsValidPlayer("Jinshi");
+
+	nrs.foo();
+}

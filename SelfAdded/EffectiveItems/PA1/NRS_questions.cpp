@@ -18,8 +18,20 @@ bool NRS_questions::IsValidPlayer(const char* player)
 
 	if (this->valideNames.find(player) == this->valideNames.end())
 		res = false;
-	
+
+	this->printValidation(res, player);
 	return res;
+}
+
+void NRS_questions::printValidation(bool val, const char* name)
+{
+	if(val)
+	{
+		printf("Player %s is a valid player name.\n", name);
+	}else
+	{
+		printf("Player %s is NOT a valid player name.\n", name);
+	}
 }
 
 void NRS_questions::addPlayer(const char* arg_players[], int size)
