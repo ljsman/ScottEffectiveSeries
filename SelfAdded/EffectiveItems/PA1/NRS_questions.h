@@ -4,7 +4,7 @@
 // Date:		03/03/2020 - 03/05/2020
 // IDE:			Visual Studio Enterprise 2019(v142)
 // SDK:			Windows 10.0.18362.0	
-// Mode:		x86 Debug
+// Mode:		x86 Debug @ Warning Level - W4
 // Memory:		No Memory leaks
 //----------------------------------------------------------------------------
 #pragma once
@@ -84,7 +84,7 @@ public:
 		return total;
 	};
 
-	void raiseBaseSalaryBy(const float base) override
+	virtual void raiseBaseSalaryBy(const float base) override
 	{
 		this->setSalary(base);
 		this->getInfo(base);
@@ -110,7 +110,7 @@ public:
 		return total;
 	};
 
-	void raiseBaseSalaryBy(const float base) override
+	virtual void raiseBaseSalaryBy(const float base) override
 	{
 		printf("Staff %s NOT eligible for a raise.\n", this->getName().c_str());
 	}
@@ -128,7 +128,7 @@ public:
 
  *  5. I also choose to use the class NRS_questions to manage
  *		data : vector<ThreeDPoint>, const char* PlayerNames[] and other data.
- *		function : foo(vector<ThreeDPoint>&),  bool IsValidPlayer( const char* player ) and other funcations.
+ *		function : foo(vector<ThreeDPoint>&),  bool IsValidPlayer( const char* player ) and other functions.
  *
  */
 union ThreeDPoint //default public
@@ -147,25 +147,25 @@ union ThreeDPoint //default public
 	//public member function, default ctor
 	ThreeDPoint() : x{ 0.0f }, y{ 0.0f }, z{ 0.0f }, pad{ 0.0f }
 	{
-		cout << "ThreeDPoint Default ctor" << endl;
+		//cout << "ThreeDPoint Default ctor" << endl;
 	};
 
 	ThreeDPoint(const float arg_x, const float arg_y, const float arg_z, const float arg_pad)
 		: x{ arg_x }, y{ arg_y }, z{ arg_z }, pad{ arg_pad }
 	{
-		cout << "ThreeDPoint Specialized ctor" << endl;
+		//cout << "ThreeDPoint Specialized ctor" << endl;
 	};
 
 	ThreeDPoint(const ThreeDPoint & tmp)
 		: x{ tmp.x }, y{ tmp.y }, z{ tmp.z }, pad{ tmp.pad }
 	{
-		cout << "ThreeDPoint Copy ctor" << endl;
+		//cout << "ThreeDPoint Copy ctor" << endl;
 	};
 
 	ThreeDPoint(ThreeDPoint && tmp) noexcept
 		: x{ move(tmp.x) }, y{ move(tmp.y) }, z{ move(tmp.z) }, pad{ move(tmp.pad) } //move() could be removed
 	{
-		cout << "ThreeDPoint Move ctor" << endl;
+		//cout << "ThreeDPoint Move ctor" << endl;
 	};
 	~ThreeDPoint() = default;
 	ThreeDPoint& operator = (const ThreeDPoint&) = default;
@@ -206,20 +206,20 @@ class NRS_questions
 		/*
 		 *	Description: foo() is sorting all ThreeDPoints objects according to their "length" which is the square root of dot product with itself.
 		 *  Improvements:
-		 *	1. The original sorting running time is O(N^2) under worst case. The fact of using the flag to terminate the while loop makes the original algo better than O(N^2). However, a lot of CPU cycle has been used in the vector length calculation.
-		   I used STL::map to improve sorting. STL map is implemented using self-balancing red-black tree, it supports dictionary operations under O(logN). So, the improved running time is O(logN) + 2 * O(N) + O(1). Space: O(N) + O(N)
+		 *	1. The original sorting algo has a running time of O(n^2) under worst case. The fact of using a flag to terminate the while loop makes the original algo better than O(n^2). However, a lot of CPU cycle has been used in the vector length calculation.
+		   I propose the use of STL::map to improve sorting. STL map is implemented using self-balancing red-black tree, it supports dictionary operations with a complexity of O(log n). So, the improved running time is O(n * log n) + 2 * O(n) + O(1). Space: O(n) + O(n). Now we only need to calculate each vector's length once.
 		 
 		 *	2. Declare variable only when we actually use it. Especially, pointers in a raw loop. We do not want unexpected inc/dec. from other pieces of code.
 		 
 		 *	3. I used "auto" and "using" to make cleaner code.
 		 
-		 *	4. Implicit inline, by putting foo definition inside class NRS_question class. Because, this function might get called very often, since it is doing vector calculations.
+		 *	4. Implicit inline, by putting foo() definition inside class NRS_question class. Because, this function might get called very often.
 		 
 		 *	5. I used SIMD to speed up floating point calculation. Improvements could also be made on _mm_dp_ps. We could do the dot product by ourselves. That would require  _mm_mul_ps (__m128 a, __m128 b),  _mm_hadd_ps (__m128 a, __m128 b), and other intrinsics. For clear code, for now I only used existing _mm_dp_ps.
 		 
 		 *	6. I also move the foo()'s argument into the class NRS_question's data member for better data encapsulation.
 		 
-			7. For container access I use at(int index) instead of operator[], because at() throws out_of_range exception. Whenever possible avoid using raw loop.
+			7. For container access I used at(int index); instead of operator[], because at() throws out_of_range exception. In addition, whenever possible avoid using raw loop.
 			
 			8. I tend to put everything on stack, use stack as much as possible. Because it manages memory efficiently.
 		 */
@@ -236,14 +236,14 @@ class NRS_questions
 			map<float, ThreeDPoint> map;
 			vect_3d res;
 
-			//O(N) + log(N)
+			//O(n) + n * log(n)
 			for (auto i = 0; i < vectSize; i++)
 			{
 				current.data = _mm_sqrt_ss(_mm_dp_ps(this->points.at(i).data, this->points.at(i).data, BITS));
 				map.insert(pair<float, ThreeDPoint>(current.getValue(), this->points.at(i)));
 			}
 
-			//O(N)
+			//O(n)
 			for (const auto& value : map)
 			{
 				res.push_back(value.second);
@@ -257,8 +257,8 @@ class NRS_questions
 
 /*
  * Run-time Polymorphism helps us to call the right function at all times.
- * C++ implements Polymorphism using vtable and vptr. They are generated by using keyword virtual. There are two ways to use virtual, virtual function and pure virtual function.
- * For a class which contains at least one virtual function, a vtable is created for this class. When an derived object is created, its vptr points to the correct vtable for its overridden function. This vptr stays with the object and will not change. Even if we use a base class pointer to call a function in the derived class object, the vptr direct us to the correct function. 
+ * C++ implements RT-Polymorphism using vtable and vptr. They are generated by using keyword virtual. There are two ways to use virtual, virtual function and pure virtual function.
+ * For a class which contains at least one virtual function, a vtable is created for this class. When an derived object is created from this class, vptr is created and points to the correct overridden function in its vtable. This vptr stays with the derived object and will not change. Even if we use a base class pointer to call the virtual function, the vptr direct us to the correct overridden function. 
  * 
  */
  //passed in as Employee*, but always call the right functions.

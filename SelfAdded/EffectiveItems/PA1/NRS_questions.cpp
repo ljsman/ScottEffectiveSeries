@@ -27,10 +27,10 @@ void NRS_questions::printValidation(bool val, const char* name)
 {
 	if(val)
 	{
-		printf("Player %s is a valid player name.\n", name);
+		printf("\nPlayer %s is a valid player name.\n", name);
 	}else
 	{
-		printf("Player %s is NOT a valid player name.\n", name);
+		printf("\nPlayer %s is NOT a valid player name.\n", name);
 	}
 }
 
