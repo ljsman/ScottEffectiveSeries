@@ -133,6 +133,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Framework\__DO NOT MODIFY__" />
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="..\dist\File_Slow\lib\File_Slow_Debug.lib">

@@ -1,6 +1,4 @@
 ﻿  NRS_questions.cpp
-E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\NRS_questions.h(131,24): warning C4018: '<': signed/unsigned mismatch
-E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\NRS_questions.h(135,12): warning C4018: '>=': signed/unsigned mismatch
-  main.cpp
-  Generating Code...
+E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\NRS_questions.h(114,37): warning C4100: 'base': unreferenced formal parameter
+E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\NRS_questions.h(235,23): warning C4018: '<': signed/unsigned mismatch
   PA1.vcxproj -> E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\Debug\EffectiveItems.exe

@@ -50,3 +50,18 @@ void NRS_questions::addPlayer(const char* arg_players[], int size)
 		}
 	}
 }
+
+void Employee::setSalary(const float raise)
+{
+	this->baseSalary += raise;
+}
+
+void Employee::getInfo(const float money) const
+{
+	printf("\n");
+	printf("Name: %s\n", this->getName().c_str());
+	printf("\tDept.: %s\n", this->getDept().c_str());
+	printf("\tRate: %s%%\n", std::to_string((this->getRate() * 100)).substr(0, 4).c_str());
+	printf("\t+ $%s\n", std::to_string(money).substr(0, 7).c_str());
+	printf("\n");
+}
