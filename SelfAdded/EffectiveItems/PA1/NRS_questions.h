@@ -268,35 +268,35 @@ void question1(Employee* employee)
 	employee->raiseBaseSalaryBy(1000.0f);
 }
 
-int main() {
-//------------------------------Question 1--------------------------------------------------
-	Manager* manager = new Manager("Jinshi", "Engineer", 90000.0f, 0.2f);
-	Staff* staff = new Staff("Li", "Staff", 60000.0f, 0.2f);
-	
-	question1(manager);
-	question1(staff);
-	
-	delete manager;
-	delete staff;
-//------------------------------Question 2--------------------------------------------------
-	NRS_questions nrs;
-	
-	ThreeDPoint d(2.0f, 2.0f, 2.0f, 0.0);
-	ThreeDPoint d0(1.0f, 1.0f, 1.0f, 0.0);
-	ThreeDPoint d1(3.0f, 3.0f, 3.0f, 0.0);
-	ThreeDPoint d2(0.5f, 0.5f, 0.5f, 0.0);
-	nrs.fillPoints({ d, d0, d1, d2});
-	nrs.foo();
-//------------------------------Question 3--------------------------------------------------
-	const char* PlayerNames[4] =
-	{
-				   "Jinshi",
-				   "Scorpion",
-				   "SubZero",
-				   "LiuKang"
-	};
-
-	//if we pass in raw array, the size information is lost during the parameter passing.
-	nrs.addPlayer(PlayerNames, sizeof(PlayerNames));
-	cout << nrs.IsValidPlayer("Jinshi");
-}
+//int main() {
+////------------------------------Question 1--------------------------------------------------
+//	Manager* manager = new Manager("Jinshi", "Engineer", 90000.0f, 0.2f);
+//	Staff* staff = new Staff("Li", "Staff", 60000.0f, 0.2f);
+//	
+//	question1(manager);
+//	question1(staff);
+//	
+//	delete manager;
+//	delete staff;
+////------------------------------Question 2--------------------------------------------------
+//	NRS_questions nrs;
+//	
+//	ThreeDPoint d(2.0f, 2.0f, 2.0f, 0.0);
+//	ThreeDPoint d0(1.0f, 1.0f, 1.0f, 0.0);
+//	ThreeDPoint d1(3.0f, 3.0f, 3.0f, 0.0);
+//	ThreeDPoint d2(0.5f, 0.5f, 0.5f, 0.0);
+//	nrs.fillPoints({ d, d0, d1, d2});
+//	nrs.foo();
+////------------------------------Question 3--------------------------------------------------
+//	const char* PlayerNames[4] =
+//	{
+//				   "Jinshi",
+//				   "Scorpion",
+//				   "SubZero",
+//				   "LiuKang"
+//	};
+//
+//	//if we pass in raw array, the size information is lost during the parameter passing.
+//	nrs.addPlayer(PlayerNames, sizeof(PlayerNames));
+//	cout << nrs.IsValidPlayer("Jinshi");
+//}
