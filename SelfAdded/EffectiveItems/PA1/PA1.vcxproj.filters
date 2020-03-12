@@ -67,6 +67,9 @@
     <ClInclude Include="NRS_questions.h">
       <Filter>Source Files\Headers</Filter>
     </ClInclude>
+    <ClInclude Include="MyTemplate.h">
+      <Filter>Source Files\Headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ThreadHelper\ThreadDictionary.cpp">
@@ -103,6 +106,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="NRS_questions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTemplate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
