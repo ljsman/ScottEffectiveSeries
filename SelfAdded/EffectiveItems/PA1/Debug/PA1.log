@@ -1,6 +1,6 @@
-﻿  MyTemplate.cpp
-  main.cpp
+﻿  main.cpp
 E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\Item7.h(148,45): warning C4189: 'itr': local variable is initialized but not referenced
 E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\Item7.h(175,16): warning C4189: 'ptr': local variable is initialized but not referenced
-  Generating Code...
+E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\main.cpp(169,6): warning C4189: 'convert0': local variable is initialized but not referenced
+E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\main.cpp(168,6): warning C4189: 'convert': local variable is initialized but not referenced
   PA1.vcxproj -> E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\Debug\EffectiveItems.exe
