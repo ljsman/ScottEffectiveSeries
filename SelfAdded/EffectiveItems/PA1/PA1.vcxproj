@@ -110,6 +110,7 @@
     <ClCompile Include="InsertionSort.cpp" />
     <ClCompile Include="Item7.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MyTemplate.cpp" />
     <ClCompile Include="NRS_questions.cpp" />
     <ClCompile Include="PriorityQueues.cpp" />
     <ClCompile Include="QuickSort.cpp" />
@@ -125,6 +126,7 @@
     <ClInclude Include="InsertionSort.h" />
     <ClInclude Include="Item7.h" />
     <ClInclude Include="ItemHeader.h" />
+    <ClInclude Include="MyTemplate.h" />
     <ClInclude Include="NRS_questions.h" />
     <ClInclude Include="PriorityQueues.h" />
     <ClInclude Include="QuickSort.h" />

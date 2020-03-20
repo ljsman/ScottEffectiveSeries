@@ -6,6 +6,7 @@ void NRS_questions::addPoint( const ThreeDPoint arg_point)
 	
 }
 
+//
 
 void NRS_questions::fillPoints(const vect_3d arg_points)
 {

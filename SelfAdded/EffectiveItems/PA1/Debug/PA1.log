@@ -1,7 +1,7 @@
 ﻿  main.cpp
-\\Mac\Home\Documents\GitHub\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\Item7.h(148,45): warning C4189: 'itr': local variable is initialized but not referenced
-\\Mac\Home\Documents\GitHub\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\Item7.h(175,16): warning C4189: 'ptr': local variable is initialized but not referenced
-\\Mac\Home\Documents\GitHub\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\main.cpp(159,2): error C3646: 'variable': unknown override specifier
-\\Mac\Home\Documents\GitHub\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\main.cpp(160,11): error C2143: syntax error: missing ';' before '.'
-\\Mac\Home\Documents\GitHub\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\main.cpp(159,2): error C2059: syntax error: '.'
-\\Mac\Home\Documents\GitHub\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\main.cpp(159,2): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\Item7.h(148,45): warning C4189: 'itr': local variable is initialized but not referenced
+E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\Item7.h(175,16): warning C4189: 'ptr': local variable is initialized but not referenced
+E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\main.cpp(163,6): warning C4189: 'number': local variable is initialized but not referenced
+E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\main.cpp(171,6): warning C4189: 'convert0': local variable is initialized but not referenced
+E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\PA1\main.cpp(170,6): warning C4189: 'convert': local variable is initialized but not referenced
+  PA1.vcxproj -> E:\C++Project\ScottEffectiveSeries\SelfAdded\EffectiveItems\Debug\EffectiveItems.exe
